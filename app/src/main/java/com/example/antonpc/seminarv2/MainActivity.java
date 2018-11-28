@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
      Erstellen des TabLayouts ect. zur Darstellung der Tabs
 
      Erstelllt von: Anton
+     Kurzer Test für VCS
      */
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
