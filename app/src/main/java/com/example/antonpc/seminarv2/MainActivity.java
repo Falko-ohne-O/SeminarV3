@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
      Erstelllt von: Anton
      Kurzer Test für VCS
+     Test2
      */
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
