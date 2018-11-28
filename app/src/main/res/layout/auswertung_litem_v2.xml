@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Erstellt von: Anton-->
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/übersichtListView_Name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="4dp"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/übersichtListView_Bewertung"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:gravity="end"
+        />
+
+    <Button
+        android:id="@+id/übersichtListView_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/übersichtButton"
+        android:layout_weight="1"
+        android:focusable="false"
+        />
+
+    </LinearLayout>
+
+</android.widget.RelativeLayout>
